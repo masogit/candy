@@ -1,8 +1,28 @@
 {
   "pages":[
-    "pages/index/index",
+    "pages/candy/index",
+    "pages/me/index",
     "pages/logs/logs"
   ],
+  "tabBar":{
+    "color": "#fff",
+    "selectedColor": "#e74c3c",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/candy/index",
+        "text": "candies",
+        "iconPath": "images/candy.png",
+        "selectedIconPath": "images/candy_.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "Me",
+        "iconPath": "images/girl.png",
+        "selectedIconPath": "images/girl_.png"
+      }
+    ]
+  },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
